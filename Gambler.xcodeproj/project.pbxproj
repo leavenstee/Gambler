@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C345FD27226020D50089BBDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD26226020D50089BBDA /* AppDelegate.swift */; };
+		C345FD29226020D50089BBDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD28226020D50089BBDA /* ViewController.swift */; };
+		C345FD2C226020D50089BBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C345FD2A226020D50089BBDA /* Main.storyboard */; };
+		C345FD2F226020D50089BBDA /* Gambler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C345FD2D226020D50089BBDA /* Gambler.xcdatamodeld */; };
+		C345FD31226020D50089BBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C345FD30226020D50089BBDA /* Assets.xcassets */; };
+		C345FD34226020D50089BBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C345FD32226020D50089BBDA /* LaunchScreen.storyboard */; };
+		C345FD3F226020D50089BBDA /* GamblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD3E226020D50089BBDA /* GamblerTests.swift */; };
+		C345FD4A226020D50089BBDA /* GamblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD49226020D50089BBDA /* GamblerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C345FD3B226020D50089BBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C345FD1B226020D40089BBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C345FD22226020D40089BBDA;
+			remoteInfo = Gambler;
+		};
+		C345FD46226020D50089BBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C345FD1B226020D40089BBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C345FD22226020D40089BBDA;
+			remoteInfo = Gambler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C345FD23226020D40089BBDA /* Gambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C345FD26226020D50089BBDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C345FD28226020D50089BBDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C345FD2B226020D50089BBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C345FD2E226020D50089BBDA /* Gambler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gambler.xcdatamodel; sourceTree = "<group>"; };
+		C345FD30226020D50089BBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C345FD33226020D50089BBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C345FD35226020D50089BBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C345FD3A226020D50089BBDA /* GamblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamblerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C345FD3E226020D50089BBDA /* GamblerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamblerTests.swift; sourceTree = "<group>"; };
+		C345FD40226020D50089BBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C345FD45226020D50089BBDA /* GamblerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamblerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C345FD49226020D50089BBDA /* GamblerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamblerUITests.swift; sourceTree = "<group>"; };
+		C345FD4B226020D50089BBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C345FD20226020D40089BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD37226020D50089BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD42226020D50089BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C345FD1A226020D40089BBDA = {
+			isa = PBXGroup;
+			children = (
+				C345FD25226020D40089BBDA /* Gambler */,
+				C345FD3D226020D50089BBDA /* GamblerTests */,
+				C345FD48226020D50089BBDA /* GamblerUITests */,
+				C345FD24226020D40089BBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C345FD24226020D40089BBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C345FD23226020D40089BBDA /* Gambler.app */,
+				C345FD3A226020D50089BBDA /* GamblerTests.xctest */,
+				C345FD45226020D50089BBDA /* GamblerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C345FD25226020D40089BBDA /* Gambler */ = {
+			isa = PBXGroup;
+			children = (
+				C345FD26226020D50089BBDA /* AppDelegate.swift */,
+				C345FD28226020D50089BBDA /* ViewController.swift */,
+				C345FD2A226020D50089BBDA /* Main.storyboard */,
+				C345FD30226020D50089BBDA /* Assets.xcassets */,
+				C345FD32226020D50089BBDA /* LaunchScreen.storyboard */,
+				C345FD35226020D50089BBDA /* Info.plist */,
+				C345FD2D226020D50089BBDA /* Gambler.xcdatamodeld */,
+			);
+			path = Gambler;
+			sourceTree = "<group>";
+		};
+		C345FD3D226020D50089BBDA /* GamblerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C345FD3E226020D50089BBDA /* GamblerTests.swift */,
+				C345FD40226020D50089BBDA /* Info.plist */,
+			);
+			path = GamblerTests;
+			sourceTree = "<group>";
+		};
+		C345FD48226020D50089BBDA /* GamblerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C345FD49226020D50089BBDA /* GamblerUITests.swift */,
+				C345FD4B226020D50089BBDA /* Info.plist */,
+			);
+			path = GamblerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C345FD22226020D40089BBDA /* Gambler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C345FD4E226020D50089BBDA /* Build configuration list for PBXNativeTarget "Gambler" */;
+			buildPhases = (
+				C345FD1F226020D40089BBDA /* Sources */,
+				C345FD20226020D40089BBDA /* Frameworks */,
+				C345FD21226020D40089BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gambler;
+			productName = Gambler;
+			productReference = C345FD23226020D40089BBDA /* Gambler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C345FD39226020D50089BBDA /* GamblerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C345FD51226020D50089BBDA /* Build configuration list for PBXNativeTarget "GamblerTests" */;
+			buildPhases = (
+				C345FD36226020D50089BBDA /* Sources */,
+				C345FD37226020D50089BBDA /* Frameworks */,
+				C345FD38226020D50089BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C345FD3C226020D50089BBDA /* PBXTargetDependency */,
+			);
+			name = GamblerTests;
+			productName = GamblerTests;
+			productReference = C345FD3A226020D50089BBDA /* GamblerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C345FD44226020D50089BBDA /* GamblerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C345FD54226020D50089BBDA /* Build configuration list for PBXNativeTarget "GamblerUITests" */;
+			buildPhases = (
+				C345FD41226020D50089BBDA /* Sources */,
+				C345FD42226020D50089BBDA /* Frameworks */,
+				C345FD43226020D50089BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C345FD47226020D50089BBDA /* PBXTargetDependency */,
+			);
+			name = GamblerUITests;
+			productName = GamblerUITests;
+			productReference = C345FD45226020D50089BBDA /* GamblerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C345FD1B226020D40089BBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "leavenstee llc";
+				TargetAttributes = {
+					C345FD22226020D40089BBDA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C345FD39226020D50089BBDA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C345FD22226020D40089BBDA;
+					};
+					C345FD44226020D50089BBDA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C345FD22226020D40089BBDA;
+					};
+				};
+			};
+			buildConfigurationList = C345FD1E226020D40089BBDA /* Build configuration list for PBXProject "Gambler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C345FD1A226020D40089BBDA;
+			productRefGroup = C345FD24226020D40089BBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C345FD22226020D40089BBDA /* Gambler */,
+				C345FD39226020D50089BBDA /* GamblerTests */,
+				C345FD44226020D50089BBDA /* GamblerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C345FD21226020D40089BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C345FD34226020D50089BBDA /* LaunchScreen.storyboard in Resources */,
+				C345FD31226020D50089BBDA /* Assets.xcassets in Resources */,
+				C345FD2C226020D50089BBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD38226020D50089BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD43226020D50089BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C345FD1F226020D40089BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C345FD29226020D50089BBDA /* ViewController.swift in Sources */,
+				C345FD2F226020D50089BBDA /* Gambler.xcdatamodeld in Sources */,
+				C345FD27226020D50089BBDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD36226020D50089BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C345FD3F226020D50089BBDA /* GamblerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345FD41226020D50089BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C345FD4A226020D50089BBDA /* GamblerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C345FD3C226020D50089BBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C345FD22226020D40089BBDA /* Gambler */;
+			targetProxy = C345FD3B226020D50089BBDA /* PBXContainerItemProxy */;
+		};
+		C345FD47226020D50089BBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C345FD22226020D40089BBDA /* Gambler */;
+			targetProxy = C345FD46226020D50089BBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C345FD2A226020D50089BBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C345FD2B226020D50089BBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C345FD32226020D50089BBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C345FD33226020D50089BBDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C345FD4C226020D50089BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C345FD4D226020D50089BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C345FD4F226020D50089BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = Gambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.Gambler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C345FD50226020D50089BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = Gambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.Gambler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C345FD52226020D50089BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = GamblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.GamblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gambler.app/Gambler";
+			};
+			name = Debug;
+		};
+		C345FD53226020D50089BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = GamblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.GamblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gambler.app/Gambler";
+			};
+			name = Release;
+		};
+		C345FD55226020D50089BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = GamblerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.GamblerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gambler;
+			};
+			name = Debug;
+		};
+		C345FD56226020D50089BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				INFOPLIST_FILE = GamblerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leavenstee.GamblerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gambler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C345FD1E226020D40089BBDA /* Build configuration list for PBXProject "Gambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C345FD4C226020D50089BBDA /* Debug */,
+				C345FD4D226020D50089BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C345FD4E226020D50089BBDA /* Build configuration list for PBXNativeTarget "Gambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C345FD4F226020D50089BBDA /* Debug */,
+				C345FD50226020D50089BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C345FD51226020D50089BBDA /* Build configuration list for PBXNativeTarget "GamblerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C345FD52226020D50089BBDA /* Debug */,
+				C345FD53226020D50089BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C345FD54226020D50089BBDA /* Build configuration list for PBXNativeTarget "GamblerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C345FD55226020D50089BBDA /* Debug */,
+				C345FD56226020D50089BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C345FD2D226020D50089BBDA /* Gambler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C345FD2E226020D50089BBDA /* Gambler.xcdatamodel */,
+			);
+			currentVersion = C345FD2E226020D50089BBDA /* Gambler.xcdatamodel */;
+			path = Gambler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C345FD1B226020D40089BBDA /* Project object */;
+}
