@@ -15,6 +15,16 @@
 		C345FD34226020D50089BBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C345FD32226020D50089BBDA /* LaunchScreen.storyboard */; };
 		C345FD3F226020D50089BBDA /* GamblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD3E226020D50089BBDA /* GamblerTests.swift */; };
 		C345FD4A226020D50089BBDA /* GamblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD49226020D50089BBDA /* GamblerUITests.swift */; };
+		C345FD592260292F0089BBDA /* DealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345FD572260292F0089BBDA /* DealerViewController.swift */; };
+		C345FD5A2260292F0089BBDA /* DealerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C345FD582260292F0089BBDA /* DealerViewController.xib */; };
+		C3AC646B22870304005F9566 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC646922870304005F9566 /* PlayerViewController.swift */; };
+		C3AC646C22870304005F9566 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC646A22870304005F9566 /* PlayerViewController.xib */; };
+		C3AC647022870321005F9566 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC646E22870321005F9566 /* LobbyViewController.swift */; };
+		C3AC647122870321005F9566 /* LobbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC646F22870321005F9566 /* LobbyViewController.xib */; };
+		C3AC64742287038B005F9566 /* HostSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC64732287038B005F9566 /* HostSession.swift */; };
+		C3AC647822870417005F9566 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647622870417005F9566 /* OnboardingViewController.swift */; };
+		C3AC647922870417005F9566 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC647722870417005F9566 /* OnboardingViewController.xib */; };
+		C3AC647D228704CE005F9566 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		C345FD45226020D50089BBDA /* GamblerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamblerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C345FD49226020D50089BBDA /* GamblerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamblerUITests.swift; sourceTree = "<group>"; };
 		C345FD4B226020D50089BBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C345FD572260292F0089BBDA /* DealerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerViewController.swift; sourceTree = "<group>"; };
+		C345FD582260292F0089BBDA /* DealerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealerViewController.xib; sourceTree = "<group>"; };
+		C3AC646922870304005F9566 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		C3AC646A22870304005F9566 /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		C3AC646E22870321005F9566 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		C3AC646F22870321005F9566 /* LobbyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyViewController.xib; sourceTree = "<group>"; };
+		C3AC64732287038B005F9566 /* HostSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSession.swift; sourceTree = "<group>"; };
+		C3AC647622870417005F9566 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		C3AC647722870417005F9566 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,8 @@
 			children = (
 				C345FD26226020D50089BBDA /* AppDelegate.swift */,
 				C345FD28226020D50089BBDA /* ViewController.swift */,
+				C3AC647222870372005F9566 /* Models */,
+				C345FD5B226029530089BBDA /* Screens */,
 				C345FD2A226020D50089BBDA /* Main.storyboard */,
 				C345FD30226020D50089BBDA /* Assets.xcassets */,
 				C345FD32226020D50089BBDA /* LaunchScreen.storyboard */,
@@ -126,6 +148,70 @@
 				C345FD4B226020D50089BBDA /* Info.plist */,
 			);
 			path = GamblerUITests;
+			sourceTree = "<group>";
+		};
+		C345FD5B226029530089BBDA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC647522870403005F9566 /* Onboarding */,
+				C3AC646D22870312005F9566 /* Lobby */,
+				C3AC6468228702DE005F9566 /* Joiners */,
+				C3AC6467228702CB005F9566 /* Host */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C3AC6467228702CB005F9566 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				C345FD572260292F0089BBDA /* DealerViewController.swift */,
+				C345FD582260292F0089BBDA /* DealerViewController.xib */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		C3AC6468228702DE005F9566 /* Joiners */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC646922870304005F9566 /* PlayerViewController.swift */,
+				C3AC646A22870304005F9566 /* PlayerViewController.xib */,
+			);
+			path = Joiners;
+			sourceTree = "<group>";
+		};
+		C3AC646D22870312005F9566 /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC646E22870321005F9566 /* LobbyViewController.swift */,
+				C3AC646F22870321005F9566 /* LobbyViewController.xib */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		C3AC647222870372005F9566 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC64732287038B005F9566 /* HostSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3AC647522870403005F9566 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC647A228704A4005F9566 /* ViewModel */,
+				C3AC647622870417005F9566 /* OnboardingViewController.swift */,
+				C3AC647722870417005F9566 /* OnboardingViewController.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C3AC647A228704A4005F9566 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C345FD34226020D50089BBDA /* LaunchScreen.storyboard in Resources */,
+				C3AC647122870321005F9566 /* LobbyViewController.xib in Resources */,
+				C3AC646C22870304005F9566 /* PlayerViewController.xib in Resources */,
+				C3AC647922870417005F9566 /* OnboardingViewController.xib in Resources */,
+				C345FD5A2260292F0089BBDA /* DealerViewController.xib in Resources */,
 				C345FD31226020D50089BBDA /* Assets.xcassets in Resources */,
 				C345FD2C226020D50089BBDA /* Main.storyboard in Resources */,
 			);
@@ -260,8 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C345FD29226020D50089BBDA /* ViewController.swift in Sources */,
+				C3AC64742287038B005F9566 /* HostSession.swift in Sources */,
+				C345FD592260292F0089BBDA /* DealerViewController.swift in Sources */,
+				C3AC647822870417005F9566 /* OnboardingViewController.swift in Sources */,
+				C3AC647D228704CE005F9566 /* OnboardingViewModel.swift in Sources */,
 				C345FD2F226020D50089BBDA /* Gambler.xcdatamodeld in Sources */,
+				C3AC647022870321005F9566 /* LobbyViewController.swift in Sources */,
 				C345FD27226020D50089BBDA /* AppDelegate.swift in Sources */,
+				C3AC646B22870304005F9566 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				DEVELOPMENT_TEAM = D846Q7V7YL;
 				INFOPLIST_FILE = Gambler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SWYFJMYXD;
+				DEVELOPMENT_TEAM = D846Q7V7YL;
 				INFOPLIST_FILE = Gambler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

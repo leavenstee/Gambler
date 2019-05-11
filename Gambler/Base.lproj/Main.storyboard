@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +13,55 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gambler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xR6-tF-Bsg">
+                                <rect key="frame" x="16" y="104" width="182" height="200"/>
+                                <color key="backgroundColor" red="0.23679327450000001" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ndj-HI-Ew9"/>
+                                </constraints>
+                                <state key="normal" title="HOST BUTTON"/>
+                                <connections>
+                                    <action selector="hostButtonCommand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QFK-Jq-4eQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdh-J1-Lv6">
+                                <rect key="frame" x="198" y="104" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7QH-IZ-o8B"/>
+                                    <constraint firstAttribute="height" constant="200" id="zuT-R9-fic"/>
+                                </constraints>
+                                <state key="normal" title="JOIN BUTTON"/>
+                                <connections>
+                                    <action selector="joinButtonCommand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qr4-Yr-5Ml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7C-Wy-HJH">
+                                <rect key="frame" x="16" y="304" width="382" height="30"/>
+                                <state key="normal" title="SEND IMAGE IF CONNECTED">
+                                    <color key="titleColor" red="0.31049990649999998" green="0.089447982610000004" blue="0.55692070719999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendImageCommand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFu-wT-Wib"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h7C-Wy-HJH" secondAttribute="trailing" constant="16" id="3vu-Wg-AVa"/>
+                            <constraint firstItem="h7C-Wy-HJH" firstAttribute="top" secondItem="xR6-tF-Bsg" secondAttribute="bottom" id="BsS-ju-m31"/>
+                            <constraint firstItem="Sdh-J1-Lv6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Qr4-jO-qlC"/>
+                            <constraint firstItem="Sdh-J1-Lv6" firstAttribute="leading" secondItem="xR6-tF-Bsg" secondAttribute="trailing" id="Yus-sj-xtX"/>
+                            <constraint firstItem="xR6-tF-Bsg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ima-Kw-bsd"/>
+                            <constraint firstItem="h7C-Wy-HJH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="q33-Jl-cuA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sdh-J1-Lv6" secondAttribute="trailing" constant="16" id="rIF-0I-Vht"/>
+                            <constraint firstItem="xR6-tF-Bsg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="yL6-XH-5uU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
