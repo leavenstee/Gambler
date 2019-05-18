@@ -27,6 +27,7 @@
 		C3AC647D228704CE005F9566 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */; };
 		C3AC647F228F739C005F9566 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647E228F739C005F9566 /* UserError.swift */; };
 		C3AC6481228F7466005F9566 /* LobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC6480228F7466005F9566 /* LobbyViewModel.swift */; };
+		C3AC6483228F86ED005F9566 /* DealerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC6482228F86ED005F9566 /* DealerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		C3AC647E228F739C005F9566 /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
 		C3AC6480228F7466005F9566 /* LobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewModel.swift; sourceTree = "<group>"; };
+		C3AC6482228F86ED005F9566 /* DealerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			children = (
 				C345FD572260292F0089BBDA /* DealerViewController.swift */,
 				C345FD582260292F0089BBDA /* DealerViewController.xib */,
+				C3AC6482228F86ED005F9566 /* DealerViewModel.swift */,
 			);
 			path = Host;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C345FD29226020D50089BBDA /* ViewController.swift in Sources */,
+				C3AC6483228F86ED005F9566 /* DealerViewModel.swift in Sources */,
 				C3AC64742287038B005F9566 /* HostSession.swift in Sources */,
 				C3AC6481228F7466005F9566 /* LobbyViewModel.swift in Sources */,
 				C345FD592260292F0089BBDA /* DealerViewController.swift in Sources */,
