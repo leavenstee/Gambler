@@ -25,6 +25,8 @@
 		C3AC647822870417005F9566 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647622870417005F9566 /* OnboardingViewController.swift */; };
 		C3AC647922870417005F9566 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC647722870417005F9566 /* OnboardingViewController.xib */; };
 		C3AC647D228704CE005F9566 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */; };
+		C3AC647F228F739C005F9566 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC647E228F739C005F9566 /* UserError.swift */; };
+		C3AC6481228F7466005F9566 /* LobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC6480228F7466005F9566 /* LobbyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		C3AC647622870417005F9566 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C3AC647722870417005F9566 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		C3AC647E228F739C005F9566 /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
+		C3AC6480228F7466005F9566 /* LobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,7 @@
 			children = (
 				C3AC646E22870321005F9566 /* LobbyViewController.swift */,
 				C3AC646F22870321005F9566 /* LobbyViewController.xib */,
+				C3AC6480228F7466005F9566 /* LobbyViewModel.swift */,
 			);
 			path = Lobby;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				C3AC64732287038B005F9566 /* HostSession.swift */,
+				C3AC647E228F739C005F9566 /* UserError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,19 +205,11 @@
 		C3AC647522870403005F9566 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				C3AC647A228704A4005F9566 /* ViewModel */,
 				C3AC647622870417005F9566 /* OnboardingViewController.swift */,
 				C3AC647722870417005F9566 /* OnboardingViewController.xib */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		C3AC647A228704A4005F9566 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
 				C3AC647C228704CE005F9566 /* OnboardingViewModel.swift */,
 			);
-			path = ViewModel;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +349,9 @@
 			files = (
 				C345FD29226020D50089BBDA /* ViewController.swift in Sources */,
 				C3AC64742287038B005F9566 /* HostSession.swift in Sources */,
+				C3AC6481228F7466005F9566 /* LobbyViewModel.swift in Sources */,
 				C345FD592260292F0089BBDA /* DealerViewController.swift in Sources */,
+				C3AC647F228F739C005F9566 /* UserError.swift in Sources */,
 				C3AC647822870417005F9566 /* OnboardingViewController.swift in Sources */,
 				C3AC647D228704CE005F9566 /* OnboardingViewModel.swift in Sources */,
 				C345FD2F226020D50089BBDA /* Gambler.xcdatamodeld in Sources */,

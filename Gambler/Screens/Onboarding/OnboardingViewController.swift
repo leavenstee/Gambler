@@ -17,7 +17,6 @@ class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = OnboardingViewModel()
         usernameTextField.text = viewModel?.randomUsername
     }
 
@@ -32,5 +31,18 @@ class OnboardingViewController: UIViewController {
             fatalError("ViewModel Needs to be implmented to get past here")
         }
         viewModel.username = usernameTextField.text
+        
+        if viewModel.createAccountError == nil {
+            // Transition to Lobby
+            transitionToLobby()
+        } else {
+            // Show Error Toast
+            print("Error Messege")
+        }
+    }
+    
+    private func transitionToLobby() {
+        let lobbyViewController = LobbyViewController(nibName: "LobbyViewController", bundle: nil)
+        present(lobbyViewController, animated: true, completion: nil)
     }
 }
