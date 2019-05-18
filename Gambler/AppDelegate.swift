@@ -17,9 +17,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let homeViewController = OnboardingViewController(nibName: "OnboardingViewController", bundle: nil)
-        window!.rootViewController = homeViewController
-        window!.makeKeyAndVisible()
+        
+        // Check if they have an account
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        let context = persistentContainer.viewContext
+        request.returnsObjectsAsFaults = false
+        do {
+            let result = try context.fetch(request)
+            
+            guard let firstUser = result.first as? User else {
+                throw UserError.noUser
+            }
+            
+            let lobbyViewController = LobbyViewController(nibName: "LobbyViewController", bundle: nil)
+            lobbyViewController.viewModel = LobbyViewModel(user: firstUser)
+            let navigationController = UINavigationController(rootViewController: lobbyViewController)
+            window!.rootViewController = navigationController
+            window!.makeKeyAndVisible()
+        } catch {
+            let homeViewController = OnboardingViewController(nibName: "OnboardingViewController", bundle: nil)
+            homeViewController.viewModel = OnboardingViewModel()
+            window!.rootViewController = homeViewController
+            window!.makeKeyAndVisible()
+        }
+        
         return true
     }
 
